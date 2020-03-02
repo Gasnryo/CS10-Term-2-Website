@@ -1,60 +1,84 @@
-			body {
-				background-image: url("landscape.jpg");
-				font-family: Verdana;
-				background-size: cover;
-			}
+@font-face {
+	src: url('WEST____.TTF');
+	font-family: west;
+}
 
-			.container {
-				width: 900px;
-				background-color: #fff;
-				border: 10px solid #000;
-				margin-left: auto;
-				margin-right: auto;
-				height: 700px;
-				background-color: #ecce95;
-			}
+@font-face {
+	src: url('Buffalo.ttf');
+	font-family: buffalo;
+}
 
-			.content {
-				width: 860px;
-				padding: 20px;
-				background-color: #ecce95;
-			}
+body {
+	background-image: url("landscape.jpg");
+	font-family: west;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
 
-			p {	
-				line-height: 1.5em;
-				font-size: 14pt;
-			}
-			
-			img {
-				float: left;
-				margin-right: 20px;
-				margin-bottom: 5px;
-			}
+.container {
+	width: 1300px;
+	background-color: #fff;
+	border: 10px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+	height: 700px;
+	background-color: #ecce95;
+}
 
-			ul {
-				list-style-type: none;
-				margin: 0px;
-				padding: 0px;
-				overflow: hidden;
-				background-color: #c05d5b;
-			}
-			
-			li {
-				float: left;
-				width: 450px;
-			}
-			
-			li a {
-				display: block;
-				color: white;
-				text-align: center;
-				padding: 14px 16px;
-				text-decoration: none;
-				}
-			
-			li a:hover:not(.current) {
-				background-color: #111;
-				}
-				.current {
-					background-color: #4CAF50;
-					}
+.content {
+	width: 1260px;
+	padding: 20px;
+	background-color: #ecce95;
+}
+
+p {	
+	line-height: 1.5em;
+	font-size: 14pt;
+	margin-top: -75px;
+	font-size: 32px;
+}
+
+img {
+	
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-top: -50px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #522d1a;
+}
+
+li {
+	float: left;
+	width: 650px;
+	
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 32px;
+	font-family: buffalo;
+	}
+
+li a:hover:not(.current) {
+	background-color: #111;
+	}
+	.current {
+		background-color: #c05d5b;
+		font-size: ;
+		}
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
