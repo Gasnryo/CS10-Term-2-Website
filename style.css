@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-	width: 1300px;
+	width: 1302px;
 	background-color: #fff;
 	border: 10px solid #000;
 	margin-left: auto;
@@ -27,7 +27,7 @@ body {
 }
 
 .content {
-	width: 1260px;
+	width: 1262px;
 	padding: 20px;
 	background-color: #ecce95;
 }
@@ -56,7 +56,7 @@ ul {
 
 li {
 	float: left;
-	width: 650px;
+	width: 434px;
 	
 }
 
@@ -68,6 +68,15 @@ li a {
 	text-decoration: none;
 	font-size: 32px;
 	font-family: buffalo;
+	}
+	
+	.large {
+		width: 1300px;
+		font-size: 60px;
+	}
+	
+	.border {
+		
 	}
 
 li a:hover:not(.current) {
