@@ -9,7 +9,7 @@
 }
 
 body {
-	background-image: url("landscape.jpg");
+	background-image: url("landscape2.png");
 	font-family: west;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -27,7 +27,6 @@ text-align: center;
 	border: 10px solid #000;
 	margin-left: auto;
 	margin-right: auto;
-	height: 3000px;
 	background-color: #ecce95;
 }
 
@@ -85,6 +84,12 @@ li a {
 		font-size: 60px;
 	}
 	
+.imgborder {
+	border: 5px solid #c05d5b;
+	
+	
+}
+	
 
 
 li a:hover:not(.current) {
@@ -92,10 +97,14 @@ li a:hover:not(.current) {
 	}
 	.current {
 		background-color: #c05d5b;
-		font-size: ;
 		}
 	.center {
 		margin-left: auto;
 		margin-right: auto;
 		
 	}
+	
+h1 {
+font-family: west;
+font-size: 70px;	
+}
